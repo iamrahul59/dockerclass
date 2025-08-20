@@ -51,7 +51,7 @@ pipeline {
         }
         always {
             // Actions to always perform, regardless of success or failure
-            echo 'Cleaning up...'
+            echo 'Cleaning up Workspace'
             cleanWs()
         }
     }
