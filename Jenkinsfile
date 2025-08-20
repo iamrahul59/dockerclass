@@ -52,7 +52,7 @@ pipeline {
         always {
             // Actions to always perform, regardless of success or failure
             echo 'Cleaning up...'
-            cleanWS()
+            cleanWs()
         }
     }
 }
